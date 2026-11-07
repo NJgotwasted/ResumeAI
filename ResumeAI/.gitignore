@@ -1,0 +1,47 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+*.venv/
+
+# Environment files and credentials
+.env
+APIKEY.env
+*.env
+!.env.example
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Model checkpoints & HuggingFace caches
+checkpoints/
+models/
+.cache/
+huggingface/
+
+# Streamlit logs & uploads
+.streamlit/
+*.pdf
+!sample_resumes/*.pdf
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Resume data - verify before publishing
+data/processed/
+data/raw/
+
+# Keep private and duplicate files out of GitHub
+APIKEY.env
+ResumeAI/
+data/processed/
+sample_resumes/
+venv/

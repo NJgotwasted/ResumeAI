@@ -1,0 +1,36 @@
+{
+  "label_list": [
+    "O",
+    "B-PER",
+    "I-PER",
+    "B-SKILL",
+    "I-SKILL",
+    "B-DEGREE",
+    "I-DEGREE",
+    "B-COMPANY",
+    "I-COMPANY"
+  ],
+  "label2id": {
+    "O": 0,
+    "B-PER": 1,
+    "I-PER": 2,
+    "B-SKILL": 3,
+    "I-SKILL": 4,
+    "B-DEGREE": 5,
+    "I-DEGREE": 6,
+    "B-COMPANY": 7,
+    "I-COMPANY": 8
+  },
+  "id2label": {
+    "0": "O",
+    "1": "B-PER",
+    "2": "I-PER",
+    "3": "B-SKILL",
+    "4": "I-SKILL",
+    "5": "B-DEGREE",
+    "6": "I-DEGREE",
+    "7": "B-COMPANY",
+    "8": "I-COMPANY"
+  },
+  "num_labels": 9
+}

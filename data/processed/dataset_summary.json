@@ -1,0 +1,27 @@
+{
+  "total_resumes": 100,
+  "train_count": 70,
+  "val_count": 15,
+  "test_count": 15,
+  "train_stats": {
+    "B-PER": 70,
+    "B-SKILL": 662,
+    "B-DEGREE": 100,
+    "B-COMPANY": 140,
+    "TOTAL_TOKENS": 7849
+  },
+  "val_stats": {
+    "B-PER": 15,
+    "B-SKILL": 140,
+    "B-DEGREE": 24,
+    "B-COMPANY": 30,
+    "TOTAL_TOKENS": 1721
+  },
+  "test_stats": {
+    "B-PER": 15,
+    "B-SKILL": 130,
+    "B-DEGREE": 20,
+    "B-COMPANY": 30,
+    "TOTAL_TOKENS": 1638
+  }
+}

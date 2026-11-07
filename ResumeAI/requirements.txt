@@ -1,0 +1,14 @@
+streamlit
+torch
+transformers
+datasets
+pandas
+numpy
+scikit-learn
+pymupdf
+google-genai
+python-dotenv
+seqeval
+accelerate
+Pillow
+
